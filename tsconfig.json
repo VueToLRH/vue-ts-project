@@ -5,6 +5,7 @@
     "strict": true,
     "jsx": "preserve",
     "importHelpers": true,
+    "noImplicitAny": false, // 当源文件中存在隐式any的时候报错
     "moduleResolution": "node",
     "experimentalDecorators": true,
     "skipLibCheck": true,
