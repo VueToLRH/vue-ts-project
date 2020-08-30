@@ -7,6 +7,11 @@ export default [
     component: Home,
   },
   {
+    path: '/login',
+    name: 'login',
+    component: () => import('@/views/login/index'),
+  },
+  {
     path: '/about',
     name: 'about',
     // route level code-splitting
